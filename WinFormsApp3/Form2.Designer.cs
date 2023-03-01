@@ -42,7 +42,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_checkPromosso = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -126,9 +126,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(396, 168);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
+            this.label4.Size = new System.Drawing.Size(40, 15);
             this.label4.TabIndex = 9;
-            this.label4.Text = "label4";
+            this.label4.Text = "media";
             // 
             // button3
             // 
@@ -153,9 +153,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(396, 415);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
+            this.label5.Size = new System.Drawing.Size(77, 15);
             this.label5.TabIndex = 13;
-            this.label5.Text = "label5";
+            this.label5.Text = "materia: voto";
             // 
             // button4
             // 
@@ -166,22 +166,22 @@
             this.button4.Text = "calcola voto alto";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btn_checkPromosso
             // 
-            this.button5.Location = new System.Drawing.Point(72, 485);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(348, 87);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Check promosso";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btn_checkPromosso.Location = new System.Drawing.Point(72, 485);
+            this.btn_checkPromosso.Name = "btn_checkPromosso";
+            this.btn_checkPromosso.Size = new System.Drawing.Size(348, 87);
+            this.btn_checkPromosso.TabIndex = 14;
+            this.btn_checkPromosso.Text = "Check promosso";
+            this.btn_checkPromosso.UseVisualStyleBackColor = true;
+            this.btn_checkPromosso.Click += new System.EventHandler(this.btn_checkPromosso_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 625);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btn_checkPromosso);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.listBox1);
@@ -219,6 +219,6 @@
         private ListBox listBox1;
         private Label label5;
         private Button button4;
-        private Button button5;
+        private Button btn_checkPromosso;
     }
 }

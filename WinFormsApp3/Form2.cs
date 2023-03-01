@@ -17,7 +17,7 @@ namespace WinFormsApp3
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn_checkPromosso_Click(object sender, EventArgs e)
         {
             //promosso: 0 insufficienze
             //bocciato: insufficienza > 3
